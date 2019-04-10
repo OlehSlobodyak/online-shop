@@ -14,7 +14,9 @@ class ProductList {
     }
     renderProducts(container, products) {
         let productListDomString = ''
-        products.forEach(product => {
+        products
+        .sort( (a, b) => a.price - b.price)
+        .forEach(product => {
             productListDomString += 
                 `<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
                   <div class="card product">

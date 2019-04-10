@@ -54,5 +54,12 @@
         "image": "tesla-roadster.jpg",
         "description": "Best sports car in the World",
         "price": 249999.99
+    },
+    {
+        "id": "9",
+        "title": "motorcycle",
+        "image": "motorcycle.jpg",
+        "description": "Best sports bike in the World",
+        "price": 249999.99
     }
 ]
